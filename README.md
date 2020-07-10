@@ -1,5 +1,28 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is a React based chatbot application running on WebSocket in server which interacts to [Dialogflow](https://dialogflow.cloud.google.com/) using their interactive cloud based REST APIs.
+
+In order to use and configure dialogflow, please follow the steps mentioned here: https://github.com/googleapis/nodejs-dialogflow
+
+Visit: https://cloud.google.com/sdk/install
+1) You have to install sdk into your computer
+2) That will enable you to run the code
+3) Log in to your associated gmail account
+4) Run `gcloud auth application-default login`
+5) Edit package.json and replace "path-to-credentials.json" in server script `cross-env GOOGLE_APPLICATION_CREDENTIALS=\"path-to-credentials.json\" nodemon server.js` with the downloaded credentials json file after creating service account.
+6) Create config folder and create dev.js and following details:
+
+```
+module.exports = {
+    googleProjectID: '<<project_id_from_credentials_json>>',
+    dialogFlowSessionID: '<<static_or_random_session_id>>',
+    dialogFlowSessionLanguageCode: 'en-US',
+    googleClientEmail: '<<email_id_from_credentials_json>>',
+    googlePrivateKey: '<<private_key_from_credentials_json>>'
+}
+```
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -11,6 +34,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+### `yarn server`
+
+
+Runs the server in the development mode.<br />
+Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
 
 ### `yarn test`
 
