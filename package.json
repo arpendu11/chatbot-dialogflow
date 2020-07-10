@@ -27,7 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "cross-env GOOGLE_APPLICATION_CREDENTIALS=\"reactbot-mjtjae-886e37d41f4e.json\" nodemon server.js"
+    "server": "cross-env GOOGLE_APPLICATION_CREDENTIALS=<<path-to-credentials.json>> nodemon server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
