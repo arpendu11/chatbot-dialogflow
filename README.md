@@ -5,6 +5,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is a React based chatbot application running on WebSocket in server which interacts to [Dialogflow](https://dialogflow.cloud.google.com/) using their interactive cloud based REST APIs.
 
+See it in action:
+-----------------
+![]()
+
+Usage:
+----------------
+
 In order to use and configure dialogflow, please follow the steps mentioned here: https://github.com/googleapis/nodejs-dialogflow
 
 Visit: https://cloud.google.com/sdk/install
