@@ -7,7 +7,7 @@ This is a React based chatbot application running on WebSocket in server which i
 
 See it in action:
 -----------------
-![](https://www.img2go.com/download-file/120d1d03-43b7-42c8-8863-f1383a406f31/531ea50b-bce2-4f4e-b20d-b687527ef7ba)
+![Demo](https://cdn.hashnode.com/res/hashnode/image/upload/v1595591524160/BxBlGX1Lv.gif)
 
 Usage:
 ----------------
