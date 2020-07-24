@@ -5,6 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is a React based chatbot application running on WebSocket in server which interacts to [Dialogflow](https://dialogflow.cloud.google.com/) using their interactive cloud based REST APIs.
 
+## Explanation
+
+[A simple Chatbot using Dialogflow, NodeJs and Websocket](https://arpendu.hashnode.dev/a-simple-chatbot-using-dialogflow-nodejs-and-websocket-ckd0b0ojc007d7rs1hhpxddco)
+
 See it in action:
 -----------------
 ![Demo](https://cdn.hashnode.com/res/hashnode/image/upload/v1595591524160/BxBlGX1Lv.gif)
